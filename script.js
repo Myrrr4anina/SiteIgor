@@ -24,7 +24,7 @@
     e.preventDefault();
     var digits = tel.value.replace(/\D/g, '');
     if (digits.length < 10) {
-      tel.style.borderColor = '#D93A1E';
+      tel.style.borderColor = '#D9541A';
       tel.focus();
       return;
     }
